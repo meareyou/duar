@@ -1,0 +1,48 @@
+
+{
+
+ "Account": {
+     "Username": "JustAK",
+     "Password": "80502111"
+     },
+ "Target Profit": "500000",
+ "Target Win": "1000000000",
+ "Lose Target": "0",
+ "Reset If Target Profit": "OFF",
+ "Reset If Target win": "OFF",
+ "Interval": "10",
+ "Config": [{
+
+     "Name Bet Set": " AH", 
+     "Base Bet": "0.001",
+     "Max Bet": "OFF",
+     "Chance": "60",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "6",
+          "Max": "9"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "2",
+              "If Win": "3"
+            }
+        }, 
+     "If Win": "2",
+     "If Lose": "1.45",
+     "Reset If Win": "1",
+     "Reset If Profit": "0.01",
+     "Interval": "100"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "ON",
+       "If Balance": "200",
+       "Wallet Address": "DLGuWEwox4Ge69coZ9rjeXrtVUcXpT6Aa2",
+       "Amount": "100"
+      },
+  "User-Agent": "Android Phone / Chrome 65 [Mobile]:Mozilla/5.0 (Linux; Android 8.0; BLA-L29 Build/HUAWEIBLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.6 Mobile Safari/537.36"
+
+}
